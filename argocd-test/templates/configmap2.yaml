@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: nginx-config2
-  labels:
-    app: nginx
-data:
-  hello.txt: {{ .Values.message }}
